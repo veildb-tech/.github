@@ -1,12 +1,21 @@
 ## Hi there 👋
 
-<!--
+## Overview
+This application serves several key purposes:
 
-**Here are some ideas to get you started:**
+- Protect Your Client's Data: The application enables the removal of sensitive information, such as customer addresses, emails, and billing records, from databases. Not only does it cleanse the data, but it also substitutes it with predefined patterns. This enables developers to work with realistic data sizes while safeguarding against data leaks. Additionally, database access can be restricted by user groups.
+- Ease of Sharing: Developers can effortlessly keep their databases up to date, saving time on tasks such as sharing and backups. Users can configure the data-cleaning frequency, and updated databases can be downloaded as needed.
+- Versatile Usage: In addition to the aforementioned features, this application is valuable for preparing your application or website for demos, presentations, and more.
 
-🙋‍♀️ A short introduction - what is your organization all about?
-🌈 Contribution guidelines - how can the community get involved?
-👩‍💻 Useful resources - where can the community find your docs? Is there anything else the community should know?
-🍿 Fun facts - what does your team eat for breakfast?
-🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
--->
+The primary advantage is the ability to use a single interface across various servers.
+
+## Useful links
+
+- [Documentation](https://dbvisor.gitbook.io/dbvisor-docs) - Strongly recommended to read the documentation before installation to understand the basic approach.
+- [DBvisor Service](https://github.com/dbvisor-pro/service) - The primary website where users interact. It allows configuring rules, accessing database configurations, and viewing important logs.
+- [DBvisor Agent](https://github.com/dbvisor-pro/server) - This application is installed on your server and is responsible for processing and backing up databases.
+- [DBVisor Client](https://github.com/dbvisor-pro/client) - Installed locally on developers' computers, this application simplifies logging in and downloading the latest backup.
+
+## Contact
+
+In case you need a consultation or some help, feel free to reach out to support@dbvisor.pro or through our website [dbvisor.pro](dbvisor.pro)
