@@ -11,10 +11,10 @@ The primary advantage is the ability to use a single interface across various se
 
 ## Useful links
 
-- [Documentation](https://veildb.gitbook.io/dbvisor-docs) - Strongly recommended to read the documentation before installation to understand the basic approach.
-- [DBvisor Service](https://github.com/veildb-tech/service) - The primary website where users interact. It allows configuring rules, accessing database configurations, and viewing important logs.
-- [DBvisor Agent](https://github.com/veildb-tech/server) - This application is installed on your server and is responsible for processing and backing up databases.
-- [DBVisor Client](https://github.com/veildb-tech/client) - Installed locally on developers' computers, this application simplifies logging in and downloading the latest backup.
+- [Documentation](https://veildb.gitbook.io/) - Strongly recommended to read the documentation before installation to understand the basic approach.
+- [VeilDB Service](https://github.com/veildb-tech/service) - The primary website where users interact. It allows configuring rules, accessing database configurations, and viewing important logs.
+- [VeilDB Agent](https://github.com/veildb-tech/server) - This application is installed on your server and is responsible for processing and backing up databases.
+- [VeilDB Client](https://github.com/veildb-tech/client) - Installed locally on developers' computers, this application simplifies logging in and downloading the latest backup.
 
 ## Contact
 
