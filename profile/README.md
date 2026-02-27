@@ -1,21 +1,72 @@
-## Hi there 👋
+# VeilDB
 
-## Overview
-This application serves several key purposes:
+**Open-source platform for database anonymization and secure sharing across development teams.**
 
-- Protect Your Client's Data: The application enables the removal of sensitive information, such as customer addresses, emails, and billing records, from databases. Not only does it cleanse the data, but it also substitutes it with predefined patterns. This enables developers to work with realistic data sizes while safeguarding against data leaks. Additionally, database access can be restricted by user groups.
-- Ease of Sharing: Developers can effortlessly keep their databases up to date, saving time on tasks such as sharing and backups. Users can configure the data-cleaning frequency, and updated databases can be downloaded as needed.
-- Versatile Usage: In addition to the aforementioned features, this application is valuable for preparing your application or website for demos, presentations, and more.
+VeilDB helps you safely share production-like databases without exposing sensitive customer data.
 
-The primary advantage is the ability to use a single interface across various servers.
+---
 
-## Useful links
+## Why VeilDB?
 
-- [Documentation](https://veildb.gitbook.io/) - Strongly recommended to read the documentation before installation to understand the basic approach.
-- [VeilDB Service](https://github.com/veildb-tech/service) - The primary website where users interact. It allows configuring rules, accessing database configurations, and viewing important logs.
-- [VeilDB Agent](https://github.com/veildb-tech/server) - This application is installed on your server and is responsible for processing and backing up databases.
-- [VeilDB Client](https://github.com/veildb-tech/client) - Installed locally on developers' computers, this application simplifies logging in and downloading the latest backup.
+Sharing real production databases is risky:
+- Personal data leaks
+- Compliance violations
+- Accidental exposure in local environments
 
-## Contact
+At the same time, development teams need realistic data for:
+- Debugging
+- QA
+- Demos
+- Performance testing
 
-In case you need a consultation or some help, feel free to reach out to support@veildb.com or through our website [veildb.com](veildb.com)
+VeilDB solves this by automatically anonymizing sensitive data and generating clean, shareable database dumps.
+
+---
+
+## How It Works
+
+VeilDB consists of three components:
+
+- **Service** - Web interface to configure masking rules, permissions, and database sources.
+- **Agent** – Runs on your server, processes backups and applies anonymization rules.
+- **Client** – Lightweight tool for developers to securely download prepared dumps.
+
+Service → Agent → Client
+
+---
+
+## Demo
+
+![VeilDB Demo](./demo.gif)
+
+The demo shows:
+- Creating masking rules
+- Triggering a dump
+- Downloading the anonymized database
+- Verifying the final result
+
+---
+
+## Key Features
+
+- Flexible data masking rules
+- Scheduled processing
+- Role-based access control
+- Multi-server support
+- Production-like anonymized dumps
+
+---
+
+## Repositories
+
+- [Service](https://github.com/veildb-tech/service) – Web UI and core management layer  
+- [Agent](https://github.com/veildb-tech/agent) – Backup processing and anonymization engine  
+- [https://github.com/veildb-tech/client](https://github.com/veildb-tech/client) – CLI application for downloading dumps  
+
+---
+
+## Get Started
+
+Check the [documentation](https://veildb.gitbook.io/veildb-docs/) and install the components you need.
+
+⭐ Star the project if this helps your team.
