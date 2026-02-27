@@ -37,7 +37,7 @@ Service → Agent → Client
 
 ## Demo
 
-![VeilDB Demo](./demo.gif)
+![Demo](https://github.com/veildb-tech/.github/blob/main/profile/demo.gif)
 
 The demo shows:
 - Creating masking rules
