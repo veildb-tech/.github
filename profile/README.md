@@ -61,7 +61,7 @@ The demo shows:
 
 - [Service](https://github.com/veildb-tech/service) – Web UI and core management layer  
 - [Agent](https://github.com/veildb-tech/agent) – Backup processing and anonymization engine  
-- [https://github.com/veildb-tech/client](https://github.com/veildb-tech/client) – CLI application for downloading dumps  
+- [Client](https://github.com/veildb-tech/client) – CLI application for downloading dumps  
 
 ---
 
