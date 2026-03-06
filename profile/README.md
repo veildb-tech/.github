@@ -59,7 +59,7 @@ The demo shows:
 
 ## Repositories
 
-- [Service](https://github.com/veildb-tech/service) – Web UI and core management layer  
+- [Service](https://github.com/veildb-tech/veildb) – Web UI and core management layer  
 - [Agent](https://github.com/veildb-tech/agent) – Backup processing and anonymization engine  
 - [Client](https://github.com/veildb-tech/client) – CLI application for downloading dumps  
 
